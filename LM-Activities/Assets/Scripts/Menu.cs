@@ -11,4 +11,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Hub");
     }
+
+    public void GoToLancerFranc()
+    {
+        SceneManager.LoadScene("LancerFranc");
+    }
 }

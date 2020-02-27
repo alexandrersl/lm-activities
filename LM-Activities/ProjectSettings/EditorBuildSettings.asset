@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Basket.unity
     guid: 9b2f371886382474e8ef738a0f434124
+  - enabled: 1
+    path: Assets/Scenes/LancerFranc.unity
+    guid: 7d648655fe36c3a49a55c8ca06c2beb5
   m_configObjects: {}
