@@ -2,7 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-LM-Activities/[Ll]ibrary/
+LM-Activities/Library/
 LM-Activities/[Tt]emp/
 LM-Activities/[Oo]bj/
 LM-Activities/[Bb]uild/
