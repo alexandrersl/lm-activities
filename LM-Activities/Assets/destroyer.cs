@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class destroyer : MonoBehaviour
+public class Destroyer : MonoBehaviour
 {
-	public float lifeTime = 5f;
+    public float lifeTime = 30f;
 
     // Update is called once per frame
     void Update()
