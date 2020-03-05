@@ -17,7 +17,7 @@ public class RandomSpawner : MonoBehaviour
         }
     }
 
-    void SpawnRandom(){
+    public void SpawnRandom(){
     	randomInt = Random.Range(0, spawnees.Length);
     	Instantiate(spawnees[randomInt], spawnPos.position, spawnPos.rotation);
 
