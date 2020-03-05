@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayMusic : MonoBehaviour
 {
-    public string name;
+    public new string name;
     public void PlaySound()
     {
         FindObjectOfType<AudioManager>().Play(name);
