@@ -16,4 +16,14 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("LancerFranc");
     }
+
+    public void GoToLancerPrecision()
+    {
+        SceneManager.LoadScene("LancerPrecision");
+    }
+
+    public void GoToMusic()
+    {
+        SceneManager.LoadScene("Music");
+    }
 }

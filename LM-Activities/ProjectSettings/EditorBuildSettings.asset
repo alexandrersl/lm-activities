@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LancerFranc.unity
     guid: 7d648655fe36c3a49a55c8ca06c2beb5
+  - enabled: 1
+    path: Assets/Scenes/Music.unity
+    guid: b0c94c46d1dfbd94687b0178a2ca2e7a
+  - enabled: 1
+    path: Assets/Scenes/LancerPrecision.unity
+    guid: b6b99d307aecc2e458a3a6a24763a5ef
   m_configObjects: {}
