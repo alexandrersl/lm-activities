@@ -23,6 +23,10 @@ public class LaserTeleport : MonoBehaviour
             List<Hand> hands = frame.Hands;
             Hand leftHand = null;
             Hand rightHand = null;
+            if (hands.Count < 2)
+            {
+                //laser
+            }
             if (hands.Count == 2)
             {
                 if (hands[0].IsLeft)
@@ -35,7 +39,7 @@ public class LaserTeleport : MonoBehaviour
                     leftHand = hands[1];
                     rightHand = hands[0];
                 }
-                afficherLaser(rightHand.Finger(1));
+                afficherLaser(rightHand);
                 if (leftHand.GrabStrength > 0.99)
                 {
                     teleport();
@@ -61,11 +65,11 @@ public class LaserTeleport : MonoBehaviour
             laser.SetPosition(1, transform.position + (transform.forward * 5000));
         }
     }
-    public void afficherLaser(Finger finger)
+    public void afficherLaser(Hand hand)
     {
-        Vector3 posFinger = new Vector3(finger.TipPosition.x, finger.TipPosition.y, finger.TipPosition.z);
-        laser.transform.position = posFinger;
-        laser.SetPosition(0, posFinger);
+        Vector3 posHand = new Vector3(hand.PalmPosition.x, hand.PalmPosition.y, hand.PalmPosition.z);
+        laser.transform.position = posHand;
+        laser.SetPosition(0, posHand);
     }
 }
 
